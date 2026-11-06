@@ -1,4 +1,4 @@
-# Lab 04: Pizza Store App
+# Lab 04: Pizza Store App---
 
 A Flutter application developed as part of **Lab 04**, featuring named routes, order management, and automated widget/unit tests.
 
