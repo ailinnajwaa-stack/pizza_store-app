@@ -1,15 +1,5 @@
-# LOGAI: AI Usage Log
-
-## Entry AI-001
-
-- **AI tool used:**
-- **Prompt (paste exactly what you sent):**
-
-  Suggested starting point, edit to match what you actually used:
-
-  > Create `lib/order_summary.dart` containing a Flutter `OrderSummaryScreen` widget. It takes itemName, quantity and unitPrice, computes the total with `orderTotal` from `lib/order.dart`, shows the item name, quantity and total price (format `RM 0.00`), and has a Back button using `Navigator.pop`. Do not modify any other files.
-
-- **AI output (summary):**
-- **Your changes (what you edited or fixed, and why):**
-- **Test results:** (`flutter analyze` and `flutter test` output)
-- **Decision:** (accepted / modified / rejected, and why)
+# AI Pair Programming Log (LOGAI)
+- **Task:** Implement `OrderSummaryScreen` widget utilizing `orderTotal` function from `lib/order.dart`.
+- **Prompt Used:** "Write a Flutter widget named OrderSummaryScreen in lib/order_summary.dart that uses orderTotal from order.dart, displays item name, quantity, total price, and a Back button."
+- **AI Output / Adjustments:** Generated initial stateless widget layout. Adjusted parameter handling for `orderTotal(price, quantity)` and styled text properly using `TextStyle`.
+- **Final Decision:** Integrated the generated code with minor syntax refinements to match project standards.
